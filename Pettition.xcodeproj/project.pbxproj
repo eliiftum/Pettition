@@ -14,6 +14,8 @@
 		DD552F4F2A1636EE000270B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD552F4E2A1636EE000270B8 /* Assets.xcassets */; };
 		DD552F522A1636EE000270B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD552F502A1636EE000270B8 /* LaunchScreen.storyboard */; };
 		DD552F5E2A163852000270B8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD552F5D2A163852000270B8 /* NetworkManager.swift */; };
+		DD552F612A164330000270B8 /* PetitionMainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD552F602A164330000270B8 /* PetitionMainModel.swift */; };
+		DD552F632A164848000270B8 /* PetitionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD552F622A164848000270B8 /* PetitionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DD552F512A1636EE000270B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD552F532A1636EE000270B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD552F5D2A163852000270B8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DD552F602A164330000270B8 /* PetitionMainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionMainModel.swift; sourceTree = "<group>"; };
+		DD552F622A164848000270B8 /* PetitionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		DD552F442A1636EC000270B8 /* Pettition */ = {
 			isa = PBXGroup;
 			children = (
+				DD552F5F2A163F48000270B8 /* Model */,
 				DD552F5C2A163826000270B8 /* Network */,
 				DD552F592A1637EE000270B8 /* Delegate */,
 				DD552F5B2A16380F000270B8 /* Controller */,
@@ -90,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				DD552F492A1636EC000270B8 /* ViewController.swift */,
+				DD552F622A164848000270B8 /* PetitionCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -100,6 +106,14 @@
 				DD552F5D2A163852000270B8 /* NetworkManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		DD552F5F2A163F48000270B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD552F602A164330000270B8 /* PetitionMainModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,8 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD552F5E2A163852000270B8 /* NetworkManager.swift in Sources */,
+				DD552F632A164848000270B8 /* PetitionCell.swift in Sources */,
 				DD552F4A2A1636EC000270B8 /* ViewController.swift in Sources */,
 				DD552F462A1636EC000270B8 /* AppDelegate.swift in Sources */,
+				DD552F612A164330000270B8 /* PetitionMainModel.swift in Sources */,
 				DD552F482A1636EC000270B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
