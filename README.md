@@ -7,5 +7,5 @@
 + Swift Package Manager
 
 ## Endpoints
-+"https://www.hackingwithswift.com/samples/petitions-1.json"
++ https://www.hackingwithswift.com/samples/petitions-1.json
 
