@@ -1,8 +1,8 @@
 # Pettition
 
 ## Features and Technologies
-+ SwiftUI
-+ MVM
++ UIkit
++ MVC
 + Singleton
 + Swift Package Manager
 
